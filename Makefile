@@ -1,3 +1,8 @@
+CXX := g++
+
+main-program:
+	$(CXX) -I source NK.cc -o main_program
+
 test:
 	cd tests && make test
 	cd tests && make fulldebug
